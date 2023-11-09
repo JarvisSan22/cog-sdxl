@@ -159,7 +159,7 @@ def train(
 
     main(
         pretrained_model_name_or_path=SDXL_MODEL_CACHE,
-        instance_data_dir=os.path.join(input_dir, "captions.csv"),
+        instance_data_dir=os.path.join(input_dir, "caption.csv"),
         output_dir=OUTPUT_DIR,
         seed=seed,
         resolution=resolution,
